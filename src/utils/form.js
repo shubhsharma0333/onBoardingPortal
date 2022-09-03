@@ -9,7 +9,7 @@ export const formInfo ={
         subtitle:"You can always create another workspace later." , 
         extract:{type:"input",
         feilds:[{label:"Workspace Name",name: "wrokspaceName", placeholder:"Eden", value:""}, 
-            {label:"Workspace URL", span:"www.eden.com/",name: "workspaceURL", placeholder:"Example", value:"" , style:"rounded-none rounded-r-lg block border border-gray-300 text-gray-900 text-sm block p-2.5"}]}},
+            {label:"Workspace URL", span:"www.eden.com/",name: "workspaceURL", placeholder:"Example", value:"" , style:"rounded-none rounded-r-lg block border border-gray-300 text-gray-900 text-sm block p-2.5 w-full"}]}},
         
     3:{title:"How are you planning to use Eden?", 
         subtitle:"We'll streamline your setup experience accordingly" , 

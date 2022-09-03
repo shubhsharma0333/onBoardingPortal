@@ -37,7 +37,9 @@ const Content = () => {
     }
 
     const handlePage = () =>{
-      
+      if(page=== Object.keys(content).length){
+        return
+      }
       setPage((prev)=> prev +1)
 
     }
